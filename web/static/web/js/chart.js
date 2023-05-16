@@ -4,9 +4,12 @@ $(function() {
    * Data and config for chartjs
    */
   'use strict';
-    var val = document.getElementById("dataset");
+    var val = document.getElementById("dataset").innerText;
+    val=(val.slice(1,-1)).split(",")
+    console.log(val)
+
   var data = {
-    labels: ["2013", "2014", "2014", "2015", "2016", "2017"],
+    labels: ["1", "2", "3", "4", "5", "6","7","8","9","10"],
     datasets: [{
       label: '# of Votes',
       data: val,
@@ -16,7 +19,12 @@ $(function() {
         'rgba(255, 206, 86, 0.2)',
         'rgba(75, 192, 192, 0.2)',
         'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)'
+        'rgba(255, 159, 64, 0.2)',
+        'rgba(255, 159, 64, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+
       ],
       borderColor: [
         'rgba(255,99,132,1)',
@@ -26,7 +34,7 @@ $(function() {
         'rgba(153, 102, 255, 1)',
         'rgba(255, 159, 64, 1)'
       ],
-      borderWidth: 1,
+      borderWidth: 2000,
       fill: false
     }]
   };

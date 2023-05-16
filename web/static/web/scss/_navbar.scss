@@ -243,7 +243,6 @@
     height: $navbar-height;
     @extend .p-0;
     &.fixed-top {
-      left: $sidebar-width-lg;
       transition: left $action-transition-duration $action-transition-timing-function,
         width $action-transition-duration $action-transition-timing-function;
       @media (max-width: 991px) {
