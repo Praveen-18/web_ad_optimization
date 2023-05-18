@@ -6,6 +6,9 @@
 
 This project aims to optimize web advertisements using machine learning techniques and integrates the solution into a Django web application. The application allows users to submit a CSV file containing ad performance data, and it generates a bar chart graph to visualize the results.
 
+![image](https://github.com/Praveen-18/web_ad_optimization/assets/95075378/29cea918-b1c6-413d-a169-152382f32174)
+
+
 ## Features
 
 - CSV File Submission: Users can submit a CSV file containing ad performance data.
